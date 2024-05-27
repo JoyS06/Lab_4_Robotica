@@ -119,6 +119,27 @@ Al ejecutar el archivo desde la terminal, se activa la función listener para in
 
 ![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/99482779-388d-408b-a84a-54f32ca2e945)
 
+El programa inicia un bucle while que se ejecuta indefinidamente, pidiendo al usuario que seleccione una posición para el pincher. Luego, en un bucle for, envía comandos a cada motor individualmente utilizando jointCommand, estableciendo un límite de torque por seguridad. La posición real de cada motor y el error con respecto a la posición deseada se muestran en la consola.
+
+# Desarrollo: 
+
+A continuación se muestra el pantallazo donde el robot alcanza una de las posiciones que son seleccionadas por el usuario:
+
+![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/2c2fe0cb-0501-477a-b5ec-ecd785ea77b9)
+
+# Conclusiones: 
+
+El programa desarrollado establece una comunicación eficiente entre el usuario y el robot mediante la terminal. Sin embargo, se podría mejorar la interfaz para hacerla más intuitiva y amigable en futuros proyectos.
+
+El uso de repositorios de referencia fue crucial para la realización de este laboratorio. En particular, los archivos de la carpeta Dynamixel One Motor, especialmente los scripts, resultaron ser los más útiles para el desarrollo del programa y el entendimiento de los conceptos relacionados con el control de motores Dynamixel.
+
+Comunicación Humano-Máquina: El programa logra una efectiva comunicación a través de la terminal, aunque se sugiere el diseño de una interfaz más atractiva y funcional en futuros proyectos.
+
+Utilización de Repositorios: Los repositorios de referencia, especialmente los archivos de Dynamixel One Motor, fueron fundamentales. Estos archivos facilitaron tanto el desarrollo del programa como la comprensión de los conceptos de control de motores.
+
+Mejoras Futuras: Se recomienda implementar una interfaz de usuario más intuitiva y visualmente atractiva para mejorar la interacción y el manejo del sistema en futuros laboratorios.
+
+Eficiencia y Aprendizaje: La utilización de archivos y scripts específicos permitió una mayor eficiencia en el desarrollo del programa y una mejor comprensión de los conceptos de control de motores Dynamixel.
 
 
 
