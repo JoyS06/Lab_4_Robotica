@@ -33,7 +33,7 @@ Para construir el modelo del robot Phantom X Pincher, se utilizó la función Se
 
 El siguiente diagrama ilustra la estructura y los parámetros DH del robot Phantom X Pincher:
 
-![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/ff8b67fe-923f-4f40-b8ee-11918c89d3ed)
+![robot general](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/23131e81-6210-4142-96cf-8bb0a489af66)
 
 Para describir el robot utilizando los parámetros Denavit-Hartenberg (DH), se establecieron los siguientes marcos de referencia basados en el diagrama del robot Phantom X Pincher y las distancias medidas entre las articulaciones:
 
@@ -45,7 +45,7 @@ La tabla con los parametros DH se muestra a continuación:
 
 El robot contruido con las herramientas SerialLink de matlab se ve de la siguiente forma:
 
-![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/55ad3220-e4e0-41ac-8aa4-c748c844bd67)
+![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/25e394e8-322c-4de9-b81e-de693602a656)
 
 Sin embargo, la pose Home es cuando el robot se encuentra completamente vertical. Por esta razón, la posición inicial del robot se define de la siguiente manera:
 
