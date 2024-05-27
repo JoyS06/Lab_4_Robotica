@@ -62,7 +62,7 @@ Teniendo en cuenta las diferentes poses requeridas descritas en la siguiente tab
 Se grafican dichas posiciones en el robot hecho en Matlab, tomando en cuenta que la pose home ya la conocemos: 
 
 
-
+# Codigo:
 
 Primero, se ajusta la configuración de los motores en el archivo de configuración de Dynamixel, proporcionado en la página del curso. En este archivo, se crean los ajustes necesarios para los cinco motores que componen el robot Phantom X Pincher. Una vez creado este archivo, se procede a trabajar con el código en Python, donde se importan las siguientes dependencias:
 
