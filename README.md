@@ -113,14 +113,21 @@ Espera y Retorno del Resultado: Tras enviar el comando, espera el tiempo especif
 
 Al ejecutar el archivo desde la terminal, se activa la función listener para inicializar el nodo de ROS y recibir datos de los motores. Luego, se definen listas de posiciones en valores de bits y en grados para las articulaciones del robot. Estas posiciones se almacenan en una lista de listas, que se muestra al usuario en grados para facilitar la comprensión y uso.
 
-![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/99482779-388d-408b-a84a-54f32ca2e945)
+![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/11d4ce0a-fa8a-44d2-94a9-b016641a4930)
 
 El programa inicia un bucle while que se ejecuta indefinidamente, pidiendo al usuario que seleccione una posición para el pincher. Luego, en un bucle for, envía comandos a cada motor individualmente utilizando jointCommand, estableciendo un límite de torque por seguridad. La posición real de cada motor y el error con respecto a la posición deseada se muestran en la consola.
+
+![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/5ee3cc0e-0276-4ae9-b187-0a547c9193f7)
 
 # Desarrollo: 
 
 A continuación se muestra el pantallazo donde el robot alcanza una de las posiciones que son seleccionadas por el usuario:
 
+https://youtu.be/HzyhP6wYet0
+
+https://youtu.be/ExIBpuFhO4I
+
+# Comparacion: 
 
 # Conclusiones: 
 
