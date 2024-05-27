@@ -41,7 +41,7 @@ Para describir el robot utilizando los parámetros Denavit-Hartenberg (DH), se e
 
 La tabla con los parametros DH se muestra a continuación:
 
-![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/7faf1ba4-b145-4656-9e21-cd7e3f19a192)
+![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/491b27da-472a-4b3b-9c3c-bd2bf1e400b0)
 
 El robot contruido con las herramientas SerialLink de matlab se ve de la siguiente forma:
 
