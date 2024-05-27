@@ -2,6 +2,7 @@
 
 # Integrantes: 
 -Joyner Stiven Caballero Abril.
+-Felipe Triana
 
 # Introduccion: 
 
