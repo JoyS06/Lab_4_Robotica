@@ -33,7 +33,7 @@ Para construir el modelo del robot Phantom X Pincher, se utilizó la función Se
 
 El siguiente diagrama ilustra la estructura y los parámetros DH del robot Phantom X Pincher:
 
-![robot general](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/efd707a3-7c50-42d8-b07d-d73027750dce)
+![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/ff8b67fe-923f-4f40-b8ee-11918c89d3ed)
 
 Para describir el robot utilizando los parámetros Denavit-Hartenberg (DH), se establecieron los siguientes marcos de referencia basados en el diagrama del robot Phantom X Pincher y las distancias medidas entre las articulaciones:
 
@@ -60,13 +60,8 @@ Teniendo en cuenta las diferentes poses requeridas descritas en la siguiente tab
 
 Se grafican dichas posiciones en el robot hecho en Matlab, tomando en cuenta que la pose home ya la conocemos: 
 
-![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/300e4553-440f-40e5-ad1e-ad575a9c5750)
 
-![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/159efa63-7080-4e46-aa60-5162fa1b94c7)
 
-![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/87cb8fd7-199e-48d7-809e-ad7e96bd4642)
-
-![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/1480fae1-9b3c-4474-a3d2-29a3609a575c)
 
 Primero, se ajusta la configuración de los motores en el archivo de configuración de Dynamixel, proporcionado en la página del curso. En este archivo, se crean los ajustes necesarios para los cinco motores que componen el robot Phantom X Pincher. Una vez creado este archivo, se procede a trabajar con el código en Python, donde se importan las siguientes dependencias:
 
@@ -125,7 +120,6 @@ El programa inicia un bucle while que se ejecuta indefinidamente, pidiendo al us
 
 A continuación se muestra el pantallazo donde el robot alcanza una de las posiciones que son seleccionadas por el usuario:
 
-![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/2c2fe0cb-0501-477a-b5ec-ecd785ea77b9)
 
 # Conclusiones: 
 
