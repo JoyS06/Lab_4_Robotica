@@ -56,7 +56,7 @@ La pose Home se establece con todas las articulaciones alineadas verticalmente, 
 
 Teniendo en cuenta las diferentes poses requeridas descritas en la siguiente tabla, se presentan las configuraciones articulares correspondientes para cada una de las poses del robot Phantom X Pincher:
 
-![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/402cef20-ade0-442e-9644-741e0ed65d1b)
+![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/8626d6fc-b0b2-4c67-b7e1-b2786879cf49)
 
 Se grafican dichas posiciones en el robot hecho en Matlab, tomando en cuenta que la pose home ya la conocemos: 
 
