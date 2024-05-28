@@ -2,7 +2,7 @@
 
 # Integrantes: 
 -Joyner Stiven Caballero Abril.
--Felipe Triana
+-Juan Felipe Triana Aguilera
 
 # Introduccion: 
 
@@ -104,7 +104,8 @@ Espera y Retorno del Resultado: Tras enviar el comando, espera el tiempo especif
 
 Al ejecutar el archivo desde la terminal, se activa la función listener para inicializar el nodo de ROS y recibir datos de los motores. Luego, se definen listas de posiciones en valores de bits y en grados para las articulaciones del robot. Estas posiciones se almacenan en una lista de listas, que se muestra al usuario en grados para facilitar la comprensión y uso.
 
-![image](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/3a0b0adb-2903-49b2-abd7-c95880f99c75)
+![image](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/504e166f-dedd-4f12-be73-cd7d2aa4cf98)
+
 
 
 El programa inicia un bucle while que se ejecuta indefinidamente, pidiendo al usuario que seleccione una posición para el pincher. Luego, en un bucle for, envía comandos a cada motor individualmente utilizando jointCommand, estableciendo un límite de torque por seguridad. La posición real de cada motor y el error con respecto a la posición deseada se muestran en la consola.
@@ -112,30 +113,58 @@ El programa inicia un bucle while que se ejecuta indefinidamente, pidiendo al us
 ![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/5ee3cc0e-0276-4ae9-b187-0a547c9193f7)
 
 # Desarrollo: 
-Para este laboratorio, se pide que el robot haga las poses con las siguientes configuraciones articulares
+Para este laboratorio, se pide que el robot haga las poses con las siguientes configuraciones articulares:
+
 ![image](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/94af8c03-bbff-4668-8ea6-a9d0f39971a1)
 
 A continuación se muestra cómo se ve el robot cuando se le pide que adopte las poses especificadas en el laboratorio, usando MatLab:
 HOME
+
 ![WhatsApp Image 2024-05-27 at 21 30 23_ce2d864a](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/11776aca-df14-4faf-8f91-c206d85ef94d)
+
 POSE 1
+
 ![WhatsApp Image 2024-05-27 at 21 30 24_ef824d2c](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/eef3c5ba-fb82-4aa3-b4cf-ae3de22792a4)
 
 POSE 2
+
 ![WhatsApp Image 2024-05-27 at 21 30 24_40763032](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/6219f870-8f63-4c1d-95fa-2d0be0389793)
 
 POSE 3
+
 ![WhatsApp Image 2024-05-27 at 21 30 24_2fea944e](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/b05a8e91-44c8-4b94-b812-1a2972e81e55)
 
 POSE 4
+
 ![WhatsApp Image 2024-05-27 at 21 30 24_0a9eee87](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/ca92c843-219b-443e-9aa5-e290a4e6f627)
 
+Ahora, utilizando el script de python, vamos a ver las posiciones que adopta en la práctica el Phantom X pincher:
+HOME
 
-https://youtu.be/HzyhP6wYet0
+![WhatsApp Image 2024-05-27 at 21 30 03_12f8aab9](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/839a868f-c690-4bc3-ab27-252f6fa4371b)
 
-https://youtu.be/ExIBpuFhO4I
+POSE 1
 
+![WhatsApp Image 2024-05-27 at 21 30 02_da62ff5d](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/47973ea8-21e6-449e-ba0c-19db53b20132)
+
+POSE 2
+
+![WhatsApp Image 2024-05-27 at 21 30 02_d6197e99](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/fd3dcd33-9230-403a-90fa-0b2e288ca29b)
+
+POSE 3
+
+![WhatsApp Image 2024-05-27 at 21 30 02_edd22750](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/edd9ca6b-35c8-4817-991f-9719c45790b3)
+
+POSE 4
+
+![WhatsApp Image 2024-05-27 at 21 30 02_115a7b1f](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/366879bb-2c93-44a8-84fc-56494a239ae0)
+
+
+En el siguiente link, se puede observar el movimiento del robot hasta dichas poses: https://youtu.be/ExIBpuFhO4I
+Para ver cómo se mueve el robot a la par que se hace uso del script de python, ir al siguiente link: https://youtu.be/HzyhP6wYet0
 # Comparacion: 
+
+
 
 # Conclusiones: 
 
