@@ -117,7 +117,10 @@ Para este laboratorio, se pide que el robot haga las poses con las siguientes co
 
 ![image](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/94af8c03-bbff-4668-8ea6-a9d0f39971a1)
 
+Se va a llamar a la configuración 1 HOME, a la configuración 2 POSE 1, y así en adelante
+
 A continuación se muestra cómo se ve el robot cuando se le pide que adopte las poses especificadas en el laboratorio, usando MatLab:
+
 HOME
 
 ![WhatsApp Image 2024-05-27 at 21 30 23_ce2d864a](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/11776aca-df14-4faf-8f91-c206d85ef94d)
