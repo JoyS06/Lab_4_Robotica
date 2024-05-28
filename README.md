@@ -163,8 +163,31 @@ POSE 4
 En el siguiente link, se puede observar el movimiento del robot hasta dichas poses: https://youtu.be/ExIBpuFhO4I
 Para ver cómo se mueve el robot a la par que se hace uso del script de python, ir al siguiente link: https://youtu.be/HzyhP6wYet0
 # Comparacion: 
+Para esto, inicialmente tenemos que tener en cuenta que el número 4 de la base en el robot está en la dirección x positiva del espaccio. Con esto, ahora podemos comparar las imagenes generadas en MatLab, con las del robot en la práctica
+HOME
+
+![image](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/fd3740d0-45fa-4382-937e-47f1a77f087a)
+
+POSE 1
+
+![image](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/6eacb541-7413-46da-86ea-02b2132ce7e8)
 
 
+POSE 2
+
+![image](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/00d290de-218c-442e-8017-132fe0e004e3)
+
+
+POSE 3
+
+![image](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/83bf278a-b29c-4101-b9e3-f72e4386a17d)
+
+
+POSE 4
+
+![image](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/d702e30c-6aa1-4dfd-95d8-0de43028c8c6)
+
+En todos los casos, a simple vista, es posible observar que la posición adoptada por el robot en cada una de las configuraciones dadas, son practicamente las mismas que se han generado con MatLab.
 
 # Conclusiones: 
 
