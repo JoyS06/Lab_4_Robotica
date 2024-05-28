@@ -51,19 +51,7 @@ El robot contruido con las herramientas SerialLink de matlab se ve de la siguien
 
 ![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/25e394e8-322c-4de9-b81e-de693602a656)
 
-Sin embargo, la pose Home es cuando el robot se encuentra completamente vertical. Por esta razón, la posición inicial del robot se define de la siguiente manera:
-
-# Posición Inicial (Pose Home)
-La pose Home se establece con todas las articulaciones alineadas verticalmente, lo que significa que el robot está en una posición completamente extendida y recta. Esta configuración asegura que el robot esté en su posición base y listo para realizar movimientos precisos desde una posición conocida y estable. A continuación, se presenta la configuración inicial para esta pose:
-
-![posicion home](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/fefda90d-d17d-49ef-9a86-361c6498af2e)
-
-Teniendo en cuenta las diferentes poses requeridas descritas en la siguiente tabla, se presentan las configuraciones articulares correspondientes para cada una de las poses del robot Phantom X Pincher:
-
-![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/8626d6fc-b0b2-4c67-b7e1-b2786879cf49)
-
-Se grafican dichas posiciones en el robot hecho en Matlab, tomando en cuenta que la pose home ya la conocemos: 
-
+Esta posición va es la elegida como home para el desarrollo de nuestro ejercicio
 
 # Codigo:
 
@@ -116,15 +104,32 @@ Espera y Retorno del Resultado: Tras enviar el comando, espera el tiempo especif
 
 Al ejecutar el archivo desde la terminal, se activa la función listener para inicializar el nodo de ROS y recibir datos de los motores. Luego, se definen listas de posiciones en valores de bits y en grados para las articulaciones del robot. Estas posiciones se almacenan en una lista de listas, que se muestra al usuario en grados para facilitar la comprensión y uso.
 
-![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/11d4ce0a-fa8a-44d2-94a9-b016641a4930)
+![image](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/3a0b0adb-2903-49b2-abd7-c95880f99c75)
+
 
 El programa inicia un bucle while que se ejecuta indefinidamente, pidiendo al usuario que seleccione una posición para el pincher. Luego, en un bucle for, envía comandos a cada motor individualmente utilizando jointCommand, estableciendo un límite de torque por seguridad. La posición real de cada motor y el error con respecto a la posición deseada se muestran en la consola.
 
 ![image](https://github.com/JoyS06/Lab_4_Robotica/assets/105253521/5ee3cc0e-0276-4ae9-b187-0a547c9193f7)
 
 # Desarrollo: 
+Para este laboratorio, se pide que el robot haga las poses con las siguientes configuraciones articulares
+![image](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/94af8c03-bbff-4668-8ea6-a9d0f39971a1)
 
-A continuación se muestra el pantallazo donde el robot alcanza una de las posiciones que son seleccionadas por el usuario:
+A continuación se muestra cómo se ve el robot cuando se le pide que adopte las poses especificadas en el laboratorio, usando MatLab:
+HOME
+![WhatsApp Image 2024-05-27 at 21 30 23_ce2d864a](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/11776aca-df14-4faf-8f91-c206d85ef94d)
+POSE 1
+![WhatsApp Image 2024-05-27 at 21 30 24_ef824d2c](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/eef3c5ba-fb82-4aa3-b4cf-ae3de22792a4)
+
+POSE 2
+![WhatsApp Image 2024-05-27 at 21 30 24_40763032](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/6219f870-8f63-4c1d-95fa-2d0be0389793)
+
+POSE 3
+![WhatsApp Image 2024-05-27 at 21 30 24_2fea944e](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/b05a8e91-44c8-4b94-b812-1a2972e81e55)
+
+POSE 4
+![WhatsApp Image 2024-05-27 at 21 30 24_0a9eee87](https://github.com/JoyS06/Lab_4_Robotica/assets/66972115/ca92c843-219b-443e-9aa5-e290a4e6f627)
+
 
 https://youtu.be/HzyhP6wYet0
 
