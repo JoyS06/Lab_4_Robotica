@@ -164,6 +164,7 @@ POSE 4
 
 
 En el siguiente link, se puede observar el movimiento del robot hasta dichas poses: https://youtu.be/ExIBpuFhO4I
+
 Para ver cómo se mueve el robot a la par que se hace uso del script de python, ir al siguiente link: https://youtu.be/HzyhP6wYet0
 # Comparacion: 
 Para esto, inicialmente tenemos que tener en cuenta que el número 4 de la base en el robot está en la dirección x positiva del espaccio. Con esto, ahora podemos comparar las imagenes generadas en MatLab, con las del robot en la práctica
